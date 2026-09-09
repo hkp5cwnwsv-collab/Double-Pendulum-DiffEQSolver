@@ -39,9 +39,13 @@ This project:
 The system consists of two point masses, $m_1$ and $m_2$, attached to massless rigid rods of lengths $l_1$ and $l_2$. The generalized coordinates are the angles $\theta_1$ and $\theta_2$ measured from the vertical.
  
 <!-- Diagram of the double pendulum setup -->
-<p align="center">
+<p align="left">
   <img src="media/PendulumDiagram.jpg" alt="Double pendulum diagram" width="350"/>
 </p>
+| Double Pendulum Diagram | Animated Motion| 
+|:---:|:---:|
+|  <img src="media/PendulumDiagram.jpg" alt="Double pendulum diagram" width="350"/> | <img src="media/Pendulum.gif" width="350"/> | 
+
 ### Lagrangian
  
 With kinetic energy $T$ and potential energy $V$, the Lagrangian is $\mathcal{L} = T - V$:
