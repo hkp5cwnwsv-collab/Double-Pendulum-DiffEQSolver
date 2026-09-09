@@ -187,9 +187,9 @@ Solving ~200,000 initial conditions and rendering the resulting animations is me
  
 <!-- Optional: a gallery of the best images/GIFs, or a short summary of key findings -->
  
-| Animation | Phase Diagram | Poincaré Section | Chaos Map |
+| Animation | Phase Diagram+ Poincaré Section| "Eye of Sauron" | Chaos Map |
 |:---:|:---:|:---:|:---:|
-| <img src="media/pendulum_animation.gif" width="200"/> | <img src="4DWithPointcare.gif" width="200"/> | <img src="media/poincare_section.png" width="200"/> | <img src="media/chaos_map.png" width="200"/> |
+| <img src="media/pendulum_animation.gif" width="200"/> | <img src="4DWithPointcare.gif" width="200"/> | <img src="EyeofSauraun.png" width="200"/> | <img src="ShowyShow.png" width="200"/> |
  
 Key observations:
  
