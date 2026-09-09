@@ -165,7 +165,7 @@ Solving ~200,000 initial conditions and rendering the resulting animations is me
 ## Requirements
  
 - **Wolfram Mathematica** (version XX or later — update to the version you used)
-- Sufficient RAM for the large sweeps (recommend at least XX GB; the main notebook runs comfortably on a standard laptop)
+- Sufficient RAM for the large sweeps (recommend at least 16 GB; The project runs comfortably on a standard laptop, however the chaos map does take about a day to run)
 ---
  
 ## How to Run
