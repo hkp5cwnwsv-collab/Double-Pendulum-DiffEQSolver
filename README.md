@@ -189,7 +189,7 @@ Solving ~200,000 initial conditions and rendering the resulting animations is me
  
 | Animation | Phase Diagram | Poincaré Section | Chaos Map |
 |:---:|:---:|:---:|:---:|
-| <img src="media/pendulum_animation.gif" width="200"/> | <img src="media/phase_diagram.gif" width="200"/> | <img src="media/poincare_section.png" width="200"/> | <img src="media/chaos_map.png" width="200"/> |
+| <img src="media/pendulum_animation.gif" width="200"/> | <img src="media/4DWithPointcare.gif" width="200"/> | <img src="media/poincare_section.png" width="200"/> | <img src="media/chaos_map.png" width="200"/> |
  
 Key observations:
  
