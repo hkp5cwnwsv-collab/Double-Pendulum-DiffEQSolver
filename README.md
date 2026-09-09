@@ -189,7 +189,7 @@ Solving ~180,000 initial conditions and rendering the resulting animations is me
  
 | Animation | Phase Diagram+ Poincaré Section| "Eye of Sauron" | Chaos Map |
 |:---:|:---:|:---:|:---:|
-| <img src="PendulumAndPhase.gif" width="200"/> | <img src="4DWithPointcare.gif" width="200"/> | <img src="EyeofSauraun.png" width="200"/> | <img src="ShowyShow.png" width="200"/> |
+| <img src="media/PendulumAndPhase.gif" width="200"/> | <img src="media/4DWithPointcare.gif" width="200"/> | <img src="media/EyeofSauraun.png" width="200"/> | <img src="media/ShowyShow.png" width="200"/> |
  
 Key observations:
  
