@@ -28,11 +28,10 @@ The double pendulum is one of the simplest mechanical systems that exhibits chao
  
 This project:
  
-1. **Derives** the equations of motion from the Lagrangian using the Euler–Lagrange method.
-2. **Solves** the resulting coupled nonlinear ODEs numerically and **animates** the physical motion alongside its phase diagram.
-3. **Sweeps** nearly 200,000 initial conditions to construct a **4D phase diagram that evolves in time**.
-4. **Builds Poincaré sections** from the sweep to identify and analyze stable (regular) solutions.
-5. **Generates a chaos map** showing which regions of initial‑condition space lead to chaotic versus regular motion.
+2. **Solves** the coupled nonlinear ODEs numerically and **animates** the physical motion alongside its phase diagram.
+3. **Sweeps** across initial conditions with increasing angular momentum to construct a **4D phase diagram that evolves in time**.
+4. **Builds Poincaré sections** from the sweep to illustrate stable/chaotic regions.
+5. **Generates a chaos map** from 180,000 initial conditions to show which regions lead to chaotic motion.
 ---
  
 ## Physics Background
@@ -77,15 +76,16 @@ The state of the system is fully described by four variables — $(\theta_1, \th
 ```
 .
 ├── README.md
-├── DoublePendulum_Main.nb          # Derivation, numerical solution, animation, phase diagram
-├── PhaseSpace_4D.nb                # ~200,000 initial conditions → time-evolving 4D phase diagram
-├── Poincare_Sections.nb            # Poincaré sections built from the phase space sweep
-├── ChaosMap.nb                     # Chaos map over initial-condition space
-├── data/                           # (optional) exported solution data for the large sweeps
+├── DoublePendulum.nb          # numerical solution, animation, 2D phase diagram
+├── Pain.nb                # data of ~5,000 initial conditions for time-evolving 4D phase diagram
+├── Pain2.nb            # Data for chaos map of around 180,000 initial conditions 
+├── PoincareCurve.nb          # The same initial conditions as in pain but makes poincare sections for each slice
+├── OMGPrettyPlot.nb                     # 4D phase plot animation
+├── PoincareSections.nb                     # Poincare sections and 4D phase plot
+├── PlottingDaFractal.nb                     # Makes the chaos map from the previous data
 └── media/                          # GIFs and images used in this README
 ```
- 
-> **Note:** Rename the notebooks above to match the actual filenames in the repo.
+
  
 ---
  
