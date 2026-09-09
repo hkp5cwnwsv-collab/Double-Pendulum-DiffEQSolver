@@ -40,7 +40,7 @@ The system consists of two point masses, $m_1$ and $m_2$, attached to massless r
  
 <!-- Diagram of the double pendulum setup -->
 <p align="center">
-  <img src="media/setup_diagram.png" alt="Double pendulum diagram" width="350"/>
+  <img src="media/PendulumDiagram.jpg" alt="Double pendulum diagram" width="350"/>
 </p>
 ### Lagrangian
  
