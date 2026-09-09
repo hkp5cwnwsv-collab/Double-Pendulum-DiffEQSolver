@@ -158,13 +158,13 @@ This notebook produces the **chaos map**: a plot over initial‑condition space 
  
 ## Why the Project Is Split Into Multiple Files
  
-Solving ~200,000 initial conditions and rendering the resulting animations is memory‑intensive. The project is deliberately broken into separate notebooks so that each stage can be **run independently on a laptop without crashing the kernel**. The main notebook is lightweight and can be run on its own; the phase‑space, Poincaré, and chaos‑map notebooks can be run one at a time, and intermediate results can be exported to the `data/` folder and re‑imported rather than recomputed.
+Solving ~180,000 initial conditions and rendering the resulting animations is memory‑intensive. The project is deliberately broken into separate notebooks so that each stage can be **run independently on a laptop without crashing the kernel**. The main notebook is lightweight and can be run on its own; the phase‑space, Poincaré, and chaos‑map notebooks can be run one at a time, and intermediate results can be exported to the `data/` folder and re‑imported rather than recomputed.
  
 ---
  
 ## Requirements
  
-- **Wolfram Mathematica** (version XX or later — update to the version you used)
+- **Wolfram Mathematica** (version 14.0.0 or later)
 - Sufficient RAM for the large sweeps (recommend at least 16 GB; The project runs comfortably on a standard laptop, however the chaos map does take about a day to run)
 ---
  
