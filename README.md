@@ -16,9 +16,7 @@ A Mathematica study of the double pendulum from solving the equations and showin
   - [4. Chaos Map](#4-chaos-map)
 - [Why the Project Is Split Into Multiple Files](#why-the-project-is-split-into-multiple-files)
 - [Requirements](#requirements)
-- [How to Run](#how-to-run)
 - [Results](#results)
-- [Future Work](#future-work)
 - [License](#license)
 - ---
  
@@ -172,22 +170,7 @@ Solving ~180,000 initial conditions and rendering the resulting animations is me
 - **Wolfram Mathematica** (version 14.0.0 or later)
 - Sufficient RAM for the large sweeps (recommend at least 16 GB; The project runs comfortably on a standard laptop, however the chaos map does take about a day to run)
 ---
- 
-## How to Run
- 
-1. Clone the repository:
-```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-   cd YOUR_REPO_NAME
-```
-2. Open `DoublePendulum_Main.nb` in Mathematica and evaluate the notebook (**Evaluation → Evaluate Notebook**) to see the derivation, animation, and phase diagram.
-3. To reproduce the large‑scale results, open and evaluate the other notebooks **one at a time**:
-   - `PhaseSpace_4D.nb`
-   - `Poincare_Sections.nb`
-   - `ChaosMap.nb`
-4. Adjust the number of initial conditions or the integration time at the top of each notebook if you need to reduce memory usage on your machine.
----
- 
+
 ## Results
  
 <!-- Optional: a gallery of the best images/GIFs, or a short summary of key findings -->
@@ -195,11 +178,6 @@ Solving ~180,000 initial conditions and rendering the resulting animations is me
 | Animation | Phase Diagram+ Poincaré Section| "Eye of Sauron" | Chaos Map |
 |:---:|:---:|:---:|:---:|
 | <img src="media/PendulumAndPhase.gif" width="200"/> | <img src="media/4DWithPointcare.gif" width="200"/> | <img src="media/EyeofSauraun.png" width="200"/> | <img src="media/ShowyShow.png" width="200"/> |
- 
-Key observations:
- 
-- *(Add your findings here — e.g., which regions of initial‑condition space remain regular, where chaos onsets, notable stable solutions found via the Poincaré sections.)*
----
  
  
 ## License
