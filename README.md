@@ -48,14 +48,14 @@ The system consists of two point masses, $m_1$ and $m_2$, attached to massless r
  
 With kinetic energy $T$ and potential energy $V$, the Lagrangian is $\mathcal{L} = T - V$:
  
-$$
+```math
 T = \frac{1}{2}(m_1 + m_2)\, l_1^2 \dot{\theta}_1^2
   + \frac{1}{2} m_2\, l_2^2 \dot{\theta}_2^2
   + m_2\, l_1 l_2\, \dot{\theta}_1 \dot{\theta}_2 \cos(\theta_1 - \theta_2)
-$$
+```
 
 $$
-V = -(m_1 + m_2)\, g\, l_1 \cos\theta_1 - m_2\, g\, l_2 \cos\theta_2
+V = -(m_1 + m_2)\ g\ l_1 \cos\theta_1 - m_2\ g\ l_2 \cos\theta_2
 $$
  
 ### Euler–Lagrange Equations
@@ -66,12 +66,11 @@ $$
 \frac{d}{dt}\left(\frac{\partial \mathcal{L}}{\partial \dot{\theta}_i}\right) - \frac{\partial \mathcal{L}}{\partial \theta_i} = 0, \qquad i = 1, 2
 $$
  
-yields two coupled, second‑order, nonlinear ODEs for $\theta_1(t)$ and $\theta_2(t)$. These are solved numerically in the main notebook. The full derivation is worked out in the notebook itself (and in the video linked above).
+yields two coupled, second‑order, nonlinear ODEs for $\theta_1(t)$ and $\theta_2(t)$. These are solved numerically in the various notebooks. The derivations where done by hand and are left as an exercise for the reader.
  
-### Phase Space
+### Plotting Solutions
  
-The state of the system is fully described by four variables — $(\theta_1, \theta_2, \dot{\theta}_1, \dot{\theta}_2)$ — so the phase space is four‑dimensional. Visualizing this space, and slicing it with Poincaré sections, is the focus of the later notebooks.
- 
+The state of the system is fully described by four variables, $(\theta_1, \theta_2, \dot{\theta}_1, \dot{\theta}_2)$, so the phase space is four‑dimensional. There are countless ways to visualize this space from Poincaré sections to animations of the motion. So the project was split up into multiple notebooks for each kind of plot for organization and to lower the memory overhead needed to run everything.
 ---
  
 ## Repository Structure
@@ -83,9 +82,9 @@ The state of the system is fully described by four variables — $(\theta_1, \th
 ├── Pain.nb                # data of ~5,000 initial conditions for time-evolving 4D phase diagram
 ├── Pain2.nb            # Data for chaos map of around 180,000 initial conditions 
 ├── PoincareCurve.nb          # The same initial conditions as in pain but makes poincare sections for each slice
-├── OMGPrettyPlot.nb                     # 4D phase plot animation
-├── PoincareSections.nb                     # Poincare sections and 4D phase plot
-├── PlottingDaFractal.nb                     # Makes the chaos map from the previous data
+├── OMGPrettyPlot.nb                     # Makes 4D phase plot animation from Pain
+├── PoincareSections.nb                     # Makes Poincare sections with 4D phase plot animation from Pain
+├── PlottingDaFractal.nb                     # Makes the chaos map from the previous Pain2
 └── media/                          # GIFs and images used in this README
 ```
 
