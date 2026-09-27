@@ -53,6 +53,7 @@ T = \frac{1}{2}(m_1 + m_2)\, l_1^2 \dot{\theta}_1^2
   + \frac{1}{2} m_2\, l_2^2 \dot{\theta}_2^2
   + m_2\, l_1 l_2\, \dot{\theta}_1 \dot{\theta}_2 \cos(\theta_1 - \theta_2)
 $$
+
 $$
 V = -(m_1 + m_2)\, g\, l_1 \cos\theta_1 - m_2\, g\, l_2 \cos\theta_2
 $$
