@@ -99,8 +99,7 @@ The state of the system is fully described by four variables, $(\theta_1, \theta
  
 This is the starting point of the project. It:
  
-- Sets up the Lagrangian for the double pendulum.
-- Derives the equations of motion using the **Euler–Lagrange method**.
+- Algebraically solves for $\theta_1$ and $\theta_2$ from the equations given by solving the associated **Euler–Lagrange** equations.
 - Solves the equations numerically with `NDSolve` for a chosen set of initial conditions.
 - Produces an **animated plot of the actual motion** of the pendulum.
 - Produces the **corresponding phase diagram** for that trajectory.
